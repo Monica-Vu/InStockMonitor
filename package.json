@@ -5,7 +5,7 @@
   "author": "Jason Le <le.kent.jason@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "cypress:open": "cypress open",
+    "cypress:open": "cypress open --config-file=cypress.config.js",
     "cypress:run": "cypress run"
   },
   "devDependencies": {
