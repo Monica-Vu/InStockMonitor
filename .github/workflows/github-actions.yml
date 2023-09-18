@@ -1,7 +1,7 @@
-name: InStock Monitor
+name: Check if EVNNE Album in Stock
 on:
   schedule:
-    - cron: '0 7,10,20 * * *'
+    - cron: '0 16 * * *'
   push:
     branches:
       - main
