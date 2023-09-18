@@ -1,0 +1,11 @@
+name: Check if EVNNE Album in Stock
+on: 
+  schedule:
+    - cron: '0 16 * * *'
+
+jobs: 
+  Cypress-Test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Gitcode
+        uses: actions/checkout@v2
